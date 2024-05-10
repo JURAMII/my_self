@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+*{font-family: "Nanum Pen Script", cursive; font-size: 30px;}
+
+body{background: linear-gradient(to left,#fbc7d4,#9796f0);
+	height: 100vh; display: flex; justify-content: center; align-items: center;
+}
+.wrap{
+	width: 600px;
+	padding: 20px;
+}
+.tie{background-color: white; border-radius: 17px;}
+.qus{
+	display: flex;
+	padding: 20px;
+	margin-top: 10px;
+	align-items: center;
+}
+.qus p{color: #a9a8f1;}
+
+.qus span{
+	display: block;
+	width: 30px; height: 30px;
+	margin-right: 20px;
+	line-height: 30px;
+	text-align: center;
+	color: #a9a8f1;
+	background-color: rgb(178, 217, 235);
+	border-radius: 7px;
+	transition: 0.5s;
+}
+.qus span.span_color{
+	background-color: rgb(216, 249, 255);
+}
+.answer::before{
+	content: '';
+	display: block;
+	width: 90%;
+	margin-left: 30px;
+	border: 1px solid transparent;
+	border-image: linear-gradient(to left,#fbc7d4,#9796f0);
+	border-image-slice: 1;
+}
+.answer{
+	height: 80px;
+	overflow: hidden;
+	max-height: 0;
+	position: relative;
+}
+.answer p{
+	display: inline-block;
+	color: #a37ae6; 
+	padding-left: 40px; line-height: 80px;
+	margin-left: 20px;
+	position: relative;
+}
+.light{
+	display: block;
+    position: absolute;
+    bottom: 27px; left: 20px; width: 0;
+    height: 23px;
+    background-color: #fbc7d4;
+	opacity: 0.4;
+	transition: 0.8s linear;
+}
