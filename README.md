@@ -10,4 +10,4 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 # 🎵JURAM's Comment
-자바스크립트의 아코디언 기능을 처음 배우고 만들었습니다.
+아코디언 기능을 처음 배우고 자바스크립트를 사용해 만들었습니다.
